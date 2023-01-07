@@ -16,7 +16,6 @@ public class Rol {
     private Set<UsuarioRol> usuarioRoles = new HashSet<>();
 
     public Rol(){
-
     }
 
     public Rol(Long rolId, String rolNombre) {

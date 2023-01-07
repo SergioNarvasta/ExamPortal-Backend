@@ -31,7 +31,6 @@ public class Usuario implements UserDetails {
     private Set<UsuarioRol> usuarioRoles = new HashSet<>();
 
     public Usuario(){
-
     }
 
     public Usuario(Long id, String username, String password, String nombre, String apellido, String email, String telefono, boolean enabled, String perfil) {

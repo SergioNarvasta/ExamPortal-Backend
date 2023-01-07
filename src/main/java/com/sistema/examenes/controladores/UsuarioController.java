@@ -6,7 +6,6 @@ import com.sistema.examenes.modelo.UsuarioRol;
 import com.sistema.examenes.servicios.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -34,7 +33,6 @@ public class UsuarioController {
         usuarioRoles.add(usuarioRol);
         return usuarioService.guardarUsuario(usuario,usuarioRoles);
     }
-
 
     @GetMapping("/{username}")
     public Usuario obtenerUsuario(@PathVariable("username") String username){
